@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ymaps xmlns="http://maps.yandex.ru/ymaps/1.x" xmlns:gml="http://www.opengis.net/gml" xmlns:repr="http://maps.yandex.ru/representation/1.x" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maps.yandex.ru/schemas/ymaps/1.x/ymaps.xsd">
+	<repr:Representation>
+		<repr:View>
+			<repr:mapType>MAP</repr:mapType>
+			<gml:boundedBy>
+				<gml:Envelope>
+					<gml:lowerCorner>37.597619 55.757541</gml:lowerCorner>
+					<gml:upperCorner>37.649718 55.743648</gml:upperCorner>
+				</gml:Envelope>
+			</gml:boundedBy>
+		</repr:View>
+		<repr:Style gml:id="PathLineStyle">
+			<repr:lineStyle>
+				<repr:strokeColor>ff000085</repr:strokeColor>
+				<repr:strokeWidth>4</repr:strokeWidth>
+			</repr:lineStyle>
+			<repr:balloonContentStyle>
+				<repr:template>#InnerPathLineStyle</repr:template>
+			</repr:balloonContentStyle>
+		</repr:Style>
+		<repr:Style gml:id="PhotoPointStyle1">
+			<repr:iconStyle>
+				<repr:href>http://www.otrip.ru/img/20090426-1/thumbs/thumbs_8245s_2.jpg</repr:href>
+				<repr:size x="50" y="50"/>
+				<repr:offset x="-22" y="-72"/>
+				<repr:shadow>
+					<repr:href>http://www.otrip.ru/img/xml_photo_point_shadow.png</repr:href>
+					<repr:size x="77" y="80"></repr:size>
+					<repr:offset x="-30" y="-80"></repr:offset>
+				</repr:shadow>
+			</repr:iconStyle>
+			<repr:balloonContentStyle>
+				<repr:template>#baloonInnerStyleText</repr:template>
+			</repr:balloonContentStyle>
+		</repr:Style>
+		<repr:Style gml:id="PhotoPointStyle2">
+			<repr:iconStyle>
+				<repr:href>http://www.otrip.ru/img/20090426-2/thumbs/thumbs_8595s_2.jpg</repr:href>
+				<repr:size x="50" y="50"/>
+				<repr:offset x="-22" y="-72"/>
+				<repr:shadow>
+					<repr:href>http://www.otrip.ru/img/xml_photo_point_shadow.png</repr:href>
+					<repr:size x="77" y="80"></repr:size>
+					<repr:offset x="-30" y="-80"></repr:offset>
+				</repr:shadow>
+			</repr:iconStyle>
+			<repr:balloonContentStyle>
+				<repr:template>#baloonInnerStyleText</repr:template>
+			</repr:balloonContentStyle>
+		</repr:Style>
+		<repr:Style gml:id="PhotoPointStyle3">
+			<repr:iconStyle>
+				<repr:href>http://www.otrip.ru/img/20090426-2/thumbs/thumbs_8644s_2.jpg</repr:href>
+				<repr:size x="50" y="50"/>
+				<repr:offset x="-22" y="-72"/>
+				<repr:shadow>
+					<repr:href>http://www.otrip.ru/img/xml_photo_point_shadow.png</repr:href>
+					<repr:size x="77" y="80"></repr:size>
+					<repr:offset x="-30" y="-80"></repr:offset>
+				</repr:shadow>
+			</repr:iconStyle>
+			<repr:balloonContentStyle>
+				<repr:template>#baloonInnerStyleText</repr:template>
+			</repr:balloonContentStyle>
+		</repr:Style>
+		<repr:Style gml:id="PhotoPointStyle4">
+			<repr:iconStyle>
+				<repr:href>http://www.otrip.ru/img/20090426-2/thumbs/thumbs_8741s_2.jpg</repr:href>
+				<repr:size x="50" y="50"/>
+				<repr:offset x="-22" y="-72"/>
+				<repr:shadow>
+					<repr:href>http://www.otrip.ru/img/xml_photo_point_shadow.png</repr:href>
+					<repr:size x="77" y="80"></repr:size>
+					<repr:offset x="-30" y="-80"></repr:offset>
+				</repr:shadow>
+			</repr:iconStyle>
+			<repr:balloonContentStyle>
+				<repr:template>#baloonInnerStyleText</repr:template>
+			</repr:balloonContentStyle>
+		</repr:Style>
+		<repr:Style gml:id="PhotoPointStyle5">
+			<repr:iconStyle>
+				<repr:href>http://www.otrip.ru/img/20090426-2/thumbs/thumbs_8765s_2.jpg</repr:href>
+				<repr:size x="50" y="50"/>
+				<repr:offset x="-22" y="-72"/>
+				<repr:shadow>
+					<repr:href>http://www.otrip.ru/img/xml_photo_point_shadow.png</repr:href>
+					<repr:size x="77" y="80"></repr:size>
+					<repr:offset x="-30" y="-80"></repr:offset>
+				</repr:shadow>
+			</repr:iconStyle>
+			<repr:balloonContentStyle>
+				<repr:template>#baloonInnerStyleText</repr:template>
+			</repr:balloonContentStyle>
+		</repr:Style>
+		<repr:Style gml:id="PhotoPointStyle6">
+			<repr:iconStyle>
+				<repr:href>http://www.otrip.ru/img/20090426-2/thumbs/thumbs_8787s.jpg</repr:href>
+				<repr:size x="50" y="50"/>
+				<repr:offset x="-22" y="-72"/>
+				<repr:shadow>
+					<repr:href>http://www.otrip.ru/img/xml_photo_point_shadow.png</repr:href>
+					<repr:size x="77" y="80"></repr:size>
+					<repr:offset x="-30" y="-80"></repr:offset>
+				</repr:shadow>
+			</repr:iconStyle>
+			<repr:balloonContentStyle>
+				<repr:template>#baloonInnerStyleText</repr:template>
+			</repr:balloonContentStyle>
+		</repr:Style>
+		<repr:Style gml:id="PhotoPointStyle7">
+			<repr:iconStyle>
+				<repr:href>http://www.otrip.ru/img/20090426-2/thumbs/thumbs_8791s.jpg</repr:href>
+				<repr:size x="50" y="50"/>
+				<repr:offset x="-22" y="-72"/>
+				<repr:shadow>
+					<repr:href>http://www.otrip.ru/img/xml_photo_point_shadow.png</repr:href>
+					<repr:size x="77" y="80"></repr:size>
+					<repr:offset x="-30" y="-80"></repr:offset>
+				</repr:shadow>
+			</repr:iconStyle>
+			<repr:balloonContentStyle>
+				<repr:template>#baloonInnerStyleText</repr:template>
+			</repr:balloonContentStyle>
+		</repr:Style>
+		<repr:Style gml:id="PhotoPointStyle8">
+			<repr:iconStyle>
+				<repr:href>http://www.otrip.ru/img/20090426-2/thumbs/thumbs_8833s_2.jpg</repr:href>
+				<repr:size x="50" y="50"/>
+				<repr:offset x="-22" y="-72"/>
+				<repr:shadow>
+					<repr:href>http://www.otrip.ru/img/xml_photo_point_shadow.png</repr:href>
+					<repr:size x="77" y="80"></repr:size>
+					<repr:offset x="-30" y="-80"></repr:offset>
+				</repr:shadow>
+			</repr:iconStyle>
+			<repr:balloonContentStyle>
+				<repr:template>#baloonInnerStyleText</repr:template>
+			</repr:balloonContentStyle>
+		</repr:Style>
+		<repr:Template gml:id="InnerPathLineStyle">
+			<repr:text>
+				<![CDATA[<div>$[description]<br><a href="http:$[metaDataProperty.AnyMetaData.linkreport]" target=_blank>http:$[metaDataProperty.AnyMetaData.linkreport]</a><br><a href="http:$[metaDataProperty.AnyMetaData.linkgallery]" target=_blank>http:$[metaDataProperty.AnyMetaData.linkgallery]</a></div>]]>
+			</repr:text>
+		</repr:Template>
+		<repr:Template gml:id="baloonInnerStyleText">
+			<repr:text>
+				<![CDATA[<div><a href="http:$[metaDataProperty.AnyMetaData.linkurl]" target=_blank><img src="http:$[metaDataProperty.AnyMetaData.linkthnb]" alt=""/></a><br>$[description]</div>]]>
+			</repr:text>
+		</repr:Template>
+	</repr:Representation>
+	<GeoObjectCollection>
+		<gml:name>Points</gml:name>
+		<gml:featureMembers>
+			<GeoObject>
+				<style>#PhotoPointStyle1</style>
+				<gml:name></gml:name>
+				<gml:description>Начало маршрута, Старый арбат.</gml:description>
+				<gml:metaDataProperty>
+					<AnyMetaData>
+						<linkthnb>//www.otrip.ru/img/20090426-1/thumbs/thumbs_8245s_2.jpg</linkthnb>
+						<linkurl>//www.otrip.ru/img/20090426-1/8245s_2.jpg</linkurl>
+					</AnyMetaData>
+				</gml:metaDataProperty>
+				<gml:Point>
+					<gml:pos>37.600129 55.752204</gml:pos>
+				</gml:Point>
+			</GeoObject>
+			<GeoObject>
+				<style>#PhotoPointStyle2</style>
+				<gml:name></gml:name>
+				<gml:description>Государственный музей современного искусства</gml:description>
+				<gml:metaDataProperty>
+					<AnyMetaData>
+						<linkthnb>//www.otrip.ru/img/20090426-2/thumbs/thumbs_8595s_2.jpg</linkthnb>
+						<linkurl>//www.otrip.ru/img/20090426-2/8595s_2.jpg</linkurl>
+					</AnyMetaData>
+				</gml:metaDataProperty>
+				<gml:Point>
+					<gml:pos>37.599743 55.747109</gml:pos>
+				</gml:Point>
+			</GeoObject>
+			<GeoObject>
+				<style>#PhotoPointStyle3</style>
+				<gml:name></gml:name>
+				<gml:description>Храм Христа Спасителя</gml:description>
+				<gml:metaDataProperty>
+					<AnyMetaData>
+						<linkthnb>//www.otrip.ru/img/20090426-2/thumbs/thumbs_8644s_2.jpg</linkthnb>
+						<linkurl>//www.otrip.ru/img/20090426-2/8644s_2.jpg</linkurl>
+					</AnyMetaData>
+				</gml:metaDataProperty>
+				<gml:Point>
+					<gml:pos>37.609356 55.743103</gml:pos>
+				</gml:Point>
+			</GeoObject>
+			<GeoObject>
+				<style>#PhotoPointStyle4</style>
+				<gml:name></gml:name>
+				<gml:description>Московский кремль</gml:description>
+				<gml:metaDataProperty>
+					<AnyMetaData>
+						<linkthnb>//www.otrip.ru/img/20090426-2/thumbs/thumbs_8741s_2.jpg</linkthnb>
+						<linkurl>//www.otrip.ru/img/20090426-2/8741s_2.jpg</linkurl>
+					</AnyMetaData>
+				</gml:metaDataProperty>
+				<gml:Point>
+					<gml:pos>37.616974 55.747739</gml:pos>
+				</gml:Point>
+			</GeoObject>
+			<GeoObject>
+				<style>#PhotoPointStyle5</style>
+				<gml:name></gml:name>
+				<gml:description>Автопарк :)</gml:description>
+				<gml:metaDataProperty>
+					<AnyMetaData>
+						<linkthnb>//www.otrip.ru/img/20090426-2/thumbs/thumbs_8765s_2.jpg</linkthnb>
+						<linkurl>//www.otrip.ru/img/20090426-2/8765s_2.jpg</linkurl>
+					</AnyMetaData>
+				</gml:metaDataProperty>
+				<gml:Point>
+					<gml:pos>37.624656 55.749663</gml:pos>
+				</gml:Point>
+			</GeoObject>
+			<GeoObject>
+				<style>#PhotoPointStyle6</style>
+				<gml:name></gml:name>
+				<gml:description>Церковь св. Николая в Заяицком</gml:description>
+				<gml:metaDataProperty>
+					<AnyMetaData>
+						<linkthnb>//www.otrip.ru/img/20090426-2/thumbs/thumbs_8787s.jpg</linkthnb>
+						<linkurl>//www.otrip.ru/img/20090426-2/8787s.jpg</linkurl>
+					</AnyMetaData>
+				</gml:metaDataProperty>
+				<gml:Point>
+					<gml:pos>37.636243 55.748550</gml:pos>
+				</gml:Point>
+			</GeoObject>
+			<GeoObject>
+				<style>#PhotoPointStyle7</style>
+				<gml:name></gml:name>
+				<gml:description>Здание на Котельнической набережной</gml:description>
+				<gml:metaDataProperty>
+					<AnyMetaData>
+						<linkthnb>//www.otrip.ru/img/20090426-2/thumbs/thumbs_8791s.jpg</linkthnb>
+						<linkurl>//www.otrip.ru/img/20090426-2/8791s.jpg</linkurl>
+					</AnyMetaData>
+				</gml:metaDataProperty>
+				<gml:Point>
+					<gml:pos>37.642380 55.750111</gml:pos>
+				</gml:Point>
+			</GeoObject>
+			<GeoObject>
+				<style>#PhotoPointStyle8</style>
+				<gml:name></gml:name>
+				<gml:description>Заброшенный корпус общежития Московского государственного лингвистического университета</gml:description>
+				<gml:metaDataProperty>
+					<AnyMetaData>
+						<linkthnb>//www.otrip.ru/img/20090426-2/thumbs/thumbs_8833s_2.jpg</linkthnb>
+						<linkurl>//www.otrip.ru/img/20090426-2/8833s_2.jpg</linkurl>
+					</AnyMetaData>
+				</gml:metaDataProperty>
+				<gml:Point>
+					<gml:pos>37.6349767 55.7563308</gml:pos>
+				</gml:Point>
+			</GeoObject>
+			<GeoObject>
+				<style>#PathLineStyle</style>
+				<gml:name>Маршрут</gml:name>
+				<gml:description>Прогулки по Москве (Старый арбат - Китай-Город)</gml:description>
+				<gml:metaDataProperty>
+					<AnyMetaData>
+						<linkreport>//www.otrip.ru/2009/05/moscow-foto-trip/</linkreport>
+						<linkgallery>//www.otrip.ru/2009/05/yandex-map-xml-for-wordpress/</linkgallery>
+					</AnyMetaData>
+				</gml:metaDataProperty>
+				<gml:LineString>
+					<gml:posList>37.6001723 55.7522165 37.6002367 55.7520108 37.6001509 55.7515267 37.6000436 55.7509458 37.6004513 55.7509095 37.6003440 55.7497719 37.5996359 55.7466736 37.6004083 55.7454996 37.6015456 55.7450759 37.6018246 55.7449791 37.6032837 55.7447854 37.6041205 55.7438776 37.6068242 55.7429335 37.6072533 55.7438171 37.6093562 55.7431030 37.6097639 55.7440834 37.6116951 55.7457053 37.6139910 55.7468551 37.6169951 55.7477387 37.6210292 55.7483075 37.6247199 55.7485617 37.6246555 55.7496751 37.6269300 55.7497840 37.6286466 55.7497719 37.6325305 55.7493967 37.6338179 55.7492152 37.6390751 55.7477508 37.6394613 55.7479807 37.6399977 55.7477387 37.6410706 55.7485496 37.6423581 55.7500987 37.6423366 55.7504496 37.6390536 55.7530515 37.6376374 55.7535840 37.6368649 55.7543100 37.6358350 55.7550482 37.6349767 55.7563308 37.6342256 55.7575045 37.6320370 55.7572020</gml:posList>
+				</gml:LineString>
+			</GeoObject>
+		</gml:featureMembers>
+	</GeoObjectCollection>
+</ymaps>

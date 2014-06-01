@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ym:ymaps xmlns:ym="http://maps.yandex.ru/ymaps/1.x">
+  <Representation xmlns="http://maps.yandex.ru/representation/1.x">
+    <View>
+      <boundedBy xmlns="http://www.opengis.net/gml">
+        <Envelope>
+          <lowerCorner>30.405657 44.94955</lowerCorner>
+          <upperCorner>82.900404 59.95935</upperCorner>
+        </Envelope>
+      </boundedBy>
+    </View>
+    <Style xmlns:gml="http://www.opengis.net/gml" gml:id="userobject">
+      <iconContentStyle>
+        <template>#placemark</template>
+      </iconContentStyle>
+      <balloonContentStyle>
+        <template>#balloon</template>
+      </balloonContentStyle>
+    </Style>
+    <Template xmlns:gml="http://www.opengis.net/gml" gml:id="placemark">
+      <text>$[metaDataProperty.AnyMetaData.number]</text>
+    </Template>
+    <Template xmlns:gml="http://www.opengis.net/gml" gml:id="balloon">
+      <text>&lt;div style="max-width:400px;*width:400px;"&gt;&lt;strong&gt;$[name]&lt;/strong&gt;&lt;div&gt;$[description]&lt;/div&gt;&lt;/div&gt;</text>
+    </Template>
+  </Representation>
+  <ym:GeoObjectCollection xmlns="http://www.opengis.net/gml">
+    <featureMembers>
+      <ym:GeoObject>
+        <metaDataProperty>
+          <ym:AnyMetaData>
+            <ym:number>1</ym:number>
+          </ym:AnyMetaData>
+        </metaDataProperty>
+        <name>Офис Яндекса в Санкт-Петербурге</name>
+        <description>Санкт-Петербург, Cвердловская набережная, 44, бизнес-центр «Бенуа» (4-6 эт.)</description>
+        <Point>
+          <pos>30.405657 59.95935</pos>
+        </Point>
+        <ym:style>default#lightbluePoint</ym:style>
+      </ym:GeoObject>
+      <ym:GeoObject>
+        <metaDataProperty>
+          <ym:AnyMetaData>
+            <ym:number>2</ym:number>
+          </ym:AnyMetaData>
+        </metaDataProperty>
+        <name>Офис Яндекса на ст. м. «Парк Культуры»</name>
+        <description>Москва, ул. Тимура Фрунзе, 11 и ул. Льва Толстого, 16</description>
+        <Point>
+          <pos>37.58827 55.733965</pos>
+        </Point>
+        <ym:style>default#lightbluePoint</ym:style>
+      </ym:GeoObject>
+      <ym:GeoObject>
+        <metaDataProperty>
+          <ym:AnyMetaData>
+            <ym:number>3</ym:number>
+          </ym:AnyMetaData>
+        </metaDataProperty>
+        <name>Офис Яндекса в Киеве</name>
+        <description>Киев, ул. Луначарского, 4</description>
+        <Point>
+          <pos>30.598476 50.453383</pos>
+        </Point>
+        <ym:style>default#lightbluePoint</ym:style>
+      </ym:GeoObject>
+      <ym:GeoObject>
+        <metaDataProperty>
+          <ym:AnyMetaData>
+            <ym:number>4</ym:number>
+          </ym:AnyMetaData>
+        </metaDataProperty>
+        <name>Офис Яндекса в Казани</name>
+        <description>Казань, ул. Спартаковская 6, оф. 605 (Бизнес-центр Suvar Plaza, 6 этаж)</description>
+        <Point>
+          <pos>49.129365 55.778569</pos>
+        </Point>
+        <ym:style>default#lightbluePoint</ym:style>
+      </ym:GeoObject>
+      <ym:GeoObject>
+        <metaDataProperty>
+          <ym:AnyMetaData>
+            <ym:number>5</ym:number>
+          </ym:AnyMetaData>
+        </metaDataProperty>
+        <name>Офис Яндекса в Екатеринбурге</name>
+        <description>Екатеринбург, ул. Хохрякова, 10</description>
+        <Point>
+          <pos>60.59098 56.835529</pos>
+        </Point>
+        <ym:style>default#lightbluePoint</ym:style>
+      </ym:GeoObject>
+      <ym:GeoObject>
+        <metaDataProperty>
+          <ym:AnyMetaData>
+            <ym:number>6</ym:number>
+          </ym:AnyMetaData>
+        </metaDataProperty>
+        <name>Офис Яндекса в Новосибирске</name>
+        <description>Новосибирск, ул. Красноярская, 35</description>
+        <Point>
+          <pos>82.900404 55.04036</pos>
+        </Point>
+        <ym:style>default#lightbluePoint</ym:style>
+      </ym:GeoObject>
+      <ym:GeoObject>
+        <metaDataProperty>
+          <ym:AnyMetaData>
+            <ym:number>7</ym:number>
+          </ym:AnyMetaData>
+        </metaDataProperty>
+        <name>Офис Яндекса в Одессе</name>
+        <description>Одесса, пр. Шевченко, д. 4-Д, офис 61</description>
+        <Point>
+          <pos>30.749162 46.459436</pos>
+        </Point>
+        <ym:style>default#lightbluePoint</ym:style>
+      </ym:GeoObject>
+      <ym:GeoObject>
+        <metaDataProperty>
+          <ym:AnyMetaData>
+            <ym:number>8</ym:number>
+          </ym:AnyMetaData>
+        </metaDataProperty>
+        <name>Офис Яндекса в Симферополе</name>
+        <description>Симферополь, ул. Героев Аджимушкая, 6/13</description>
+        <Point>
+          <pos>34.095476 44.94955</pos>
+        </Point>
+        <ym:style>default#lightbluePoint</ym:style>
+      </ym:GeoObject>
+    </featureMembers>
+    <gml:name xmlns:gml="http://www.opengis.net/gml">Офисы яндекса</gml:name>
+    <ym:style>#userobject</ym:style>
+  </ym:GeoObjectCollection>
+</ym:ymaps>

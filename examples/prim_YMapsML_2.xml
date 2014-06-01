@@ -1,0 +1,186 @@
+﻿<?xml  version="1.0" encoding="utf-8"?>
+<ymaps xmlns="http://maps.yandex.ru/ymaps/1.x" xmlns:gml="http://www.opengis.net/gml">
+
+<Representation xmlns="http://maps.yandex.ru/representation/1.x">
+        <View>
+            <mapType>MAP</mapType>
+            <gml:boundedBy>
+                <gml:Envelope>
+                    <gml:upperCorner>44.121546 56.372383</gml:upperCorner>
+                    <gml:lowerCorner>43.799509 56.231518</gml:lowerCorner>
+                </gml:Envelope>
+            </gml:boundedBy>
+        </View>
+        <Style gml:id="styleCinimaNN">
+            <iconStyle>
+                <href>http://www.map.cek.ru/images/stories/kinoteatrs.jpg</href>
+                <size x="20" y="20"></size>
+                <offset x="-10" y="-10"></offset>
+             </iconStyle>
+        <balloonContentStyle>
+                <template>#balloonTemplate</template>
+            </balloonContentStyle> 
+        </Style>
+
+<Template gml:id="balloonTemplate">
+            <text>
+                <![CDATA[<div style="text-align:center"><strong>$[name]</strong><br /><img src="http:$[metaDataProperty.AnyMetaData.link]" alt="" width="100" height="62"/><br />$[description]</div>]]>
+            </text>
+        </Template>
+
+
+    </Representation>
+
+<GeoObjectCollection>
+        <gml:name>Кинотеатры Нижнего Новгорода</gml:name>
+        <style>#styleCinimaNN</style>
+        <gml:featureMembers>
+            <GeoObject>
+                <gml:name>Кинотеатр Импульс</gml:name>
+                <gml:description>пр. Гагарина, 192</gml:description>
+                <gml:metaDataProperty>
+                    <AnyMetaData>                       
+                       <link>//www.map.cek.ru/images/stories/afisha/cinema/imp.jpg</link>
+                    </AnyMetaData>
+                </gml:metaDataProperty>
+                <gml:Point>
+                    <gml:pos>43.959184 56.237457</gml:pos>
+                </gml:Point>
+            </GeoObject>
+            
+            <GeoObject>
+                <gml:name>Кинотеатр Канавинскийсий</gml:name>
+                <gml:description>ул. Фильченкова, 7</gml:description> 
+                <gml:metaDataProperty>
+                    <AnyMetaData>                       
+                       <link>//www.map.cek.ru/images/stories/afisha/cinema/kanaviskiy.jpg</link>                      
+                    </AnyMetaData>
+                </gml:metaDataProperty>
+                <gml:Point>
+                    <gml:pos>43.944335 56.317977</gml:pos>
+                </gml:Point>
+            </GeoObject>
+
+            <GeoObject>
+                <gml:name>Кинотеатр КАРО ФИЛЬМ в ТЦ Шоколад</gml:name>
+                 <gml:description>ул. Белинского, 124</gml:description>
+                <gml:metaDataProperty>
+                      <AnyMetaData>                      
+                       <link>//www.map.cek.ru/images/stories/afisha/cinema/chocolate_1.jpg</link>
+                       </AnyMetaData>
+                </gml:metaDataProperty>
+                <gml:Point>
+                    <gml:pos>44.026297 56.31927</gml:pos>
+                </gml:Point>
+            </GeoObject>
+
+           <GeoObject>
+                <gml:name>Кинотеатр Мир</gml:name>
+                <gml:description>пр. Молодёжный, 1</gml:description>
+                <gml:metaDataProperty>
+                    <AnyMetaData>                       
+                       <link>//www.map.cek.ru/images/stories/afisha/cinema/mir.jpg</link>
+                    </AnyMetaData>
+                </gml:metaDataProperty>
+                <gml:Point>
+                    <gml:pos>43.859471 56.241259</gml:pos>
+                </gml:Point>
+            </GeoObject>
+
+           <GeoObject>
+                <gml:name>Кинотеатр Октябрь</gml:name>
+                <gml:description>ул. Большая Покровская, 51а</gml:description>
+                <gml:metaDataProperty>
+                    <AnyMetaData>                       
+                       <link>//www.map.cek.ru/images/stories/afisha/cinema/october2.jpg</link>
+                    </AnyMetaData>
+                </gml:metaDataProperty>
+                <gml:Point>
+                    <gml:pos>43.993976 56.317213</gml:pos>
+                </gml:Point>
+            </GeoObject>
+
+            <GeoObject>
+                <gml:name>Кинотеатр Орленок</gml:name>
+                <gml:description>ул. Большая Покровская, 39а</gml:description>
+                <gml:metaDataProperty>
+                    <AnyMetaData>                       
+                       <link>//www.map.cek.ru/images/stories/afisha/cinema/ogni.jpg</link>
+                    </AnyMetaData>
+                </gml:metaDataProperty>
+                <gml:Point>
+                    <gml:pos>43.996303 56.318596</gml:pos>
+                </gml:Point>
+            </GeoObject>
+
+            <GeoObject>
+                <gml:name>Кинотеатр Рекорд</gml:name>
+                <gml:description>ул. Пискунова, 11</gml:description>
+                <gml:metaDataProperty>
+                    <AnyMetaData>                       
+                       <link>//www.map.cek.ru/images/stories/afisha/cinema/foto.gif</link>
+                    </AnyMetaData>
+                </gml:metaDataProperty>
+                <gml:Point>
+                    <gml:pos>44.00481 56.323812</gml:pos>
+                </gml:Point>
+            </GeoObject>
+
+<GeoObject>
+                <gml:name>Кинотеатр Россия</gml:name>
+                <gml:description>пр. Ленина, 32</gml:description>
+                <gml:metaDataProperty>
+                    <AnyMetaData>                       
+                       <link>//www.map.cek.ru/images/stories/afisha/cinema/rossia.jpg</link>
+                    </AnyMetaData>
+                </gml:metaDataProperty>
+                <gml:Point>
+                    <gml:pos>43.93104 56.286148</gml:pos>
+                </gml:Point>
+            </GeoObject>
+
+<GeoObject>
+                <gml:name>Кинотеатр Синема Парк</gml:name>
+                <gml:description>ул. Родионова, 187</gml:description>
+                <gml:metaDataProperty>
+                    <AnyMetaData>                       
+                       <link>//www.map.cek.ru/images/stories/afisha/cinema/sinemapark.jpg</link>
+                    </AnyMetaData>
+                </gml:metaDataProperty>
+                <gml:Point>
+                    <gml:pos>44.073827 56.308056</gml:pos>
+                </gml:Point>
+            </GeoObject>
+
+           <GeoObject>
+                <gml:name>Кинотеатр Сормовский</gml:name>
+                <gml:description>ул. Коминтерна, 105</gml:description>
+                <gml:metaDataProperty>
+                    <AnyMetaData>                       
+                       <link>//www.map.cek.ru/images/stories/afisha/cinema/sorm.jpg</link>
+                    </AnyMetaData>
+                </gml:metaDataProperty>
+                <gml:Point>
+                    <gml:pos>43.871158 56.347345</gml:pos>
+                </gml:Point>
+            </GeoObject>
+
+          <GeoObject>
+                <gml:name>Кинотеатр Электрон</gml:name>
+                <gml:description>пр. Гагарина, 98</gml:description>
+                <gml:metaDataProperty>
+                    <AnyMetaData>                       
+                       <link>//www.map.cek.ru/images/stories/afisha/cinema/elektron.jpg</link>
+                    </AnyMetaData>
+                </gml:metaDataProperty>
+                <gml:Point>
+                    <gml:pos>43.978839 56.274389</gml:pos>
+                </gml:Point>
+            </GeoObject>
+            
+            
+        </gml:featureMembers>
+    </GeoObjectCollection>
+
+
+</ymaps>
